@@ -12,7 +12,6 @@ Les routes dans Laravel sont utilisées pour définir les URL de votre applicati
 Route GET : Utilisée pour récupérer des données depuis le serveur.
 
 ```php
-<pre>
 Route::get('/', function () {
     return view('welcome');
 });

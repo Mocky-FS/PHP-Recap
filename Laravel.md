@@ -9,7 +9,7 @@
 
 Les routes dans Laravel sont utilisées pour définir les URL de votre application et définir quelles actions sont exécutées pour chaque URL. Les routes sont définies dans les fichiers routes/web.php et routes/api.php. Il existe plusieurs types de routes que vous pouvez utiliser dans Laravel, notamment :
 
-Route GET : Utilisée pour récupérer des données depuis le serveur.
+1 - Route GET : Utilisée pour récupérer des données depuis le serveur.
 
 ```php
 Route::get('/', function () {
@@ -17,37 +17,37 @@ Route::get('/', function () {
 });
 ```
 
-Route POST : Utilisée pour envoyer des données à l'application pour une création ou une mise à jour.
+2 - Route POST : Utilisée pour envoyer des données à l'application pour une création ou une mise à jour.
 
 ```php
 Route::post('/users', 'UserController@store');
 ```
 
-Route PUT/PATCH : Utilisée pour mettre à jour des données existantes.
+3 - Route PUT/PATCH : Utilisée pour mettre à jour des données existantes.
 
 ```php
 Route::put('/users/{id}', 'UserController@update');
 ```
 
-Route DELETE : Utilisée pour supprimer des données existantes.
+4 - Route DELETE : Utilisée pour supprimer des données existantes.
 
 ```php
 Route::delete('/users/{id}', 'UserController@destroy');
 ```
 
-Route Resource : Utilisée pour créer un groupe de routes pour les opérations CRUD standard.
+5 - Route Resource : Utilisée pour créer un groupe de routes pour les opérations CRUD standard.
 
 ```php
 Route::resource('users', 'UserController');
 ```
 
-Il existe également des routes nommées qui vous permettent de donner un nom spécifique à une route pour y accéder plus facilement.
+6 - Il existe également des routes nommées qui vous permettent de donner un nom spécifique à une route pour y accéder plus facilement.
 
 ```php
 Route::get('/users', 'UserController@index')->name('users.index');
 ```
 
-Il existe également des groupes de routes qui vous permettent de regrouper des routes similaires ensemble et de leur assigner des middlewares ou des préfixes d'URL spécifiques.
+7 - Il existe également des groupes de routes qui vous permettent de regrouper des routes similaires ensemble et de leur assigner des middlewares ou des préfixes d'URL spécifiques.
 
 ```php
 Route::middleware(['auth'])->group(function () {

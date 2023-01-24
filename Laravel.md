@@ -244,7 +244,7 @@ En résumé, les vues, les modèles, les migrations, les contrôleurs, les requ�
 
 Il est également important de noter que Laravel inclut également d'autres fonctionnalités qui peuvent être utilisées pour améliorer votre application, telles que les events, les listeners, les jobs, les task scheduling, les notifications, les mailables, les form request, les policies, les helpers, les facade, les macros, les packages, etc. Ces fonctionnalités peuvent vous aider à améliorer les performances de votre application et à ajouter des fonctionnalités supplémentaires.
 
-Il est important de se rappeler que Laravel est un framework très complet et qu'il prend en charge de nombreux scénarios d'utilisation. Il est donc important de comprendre les concepts fondamentaux du framework pour pouvoir utiliser efficacement les différentes fonctionnalités. Il est également important de consulter la documentation officielle et les forums de la communauté pour obtenir de l'aide et des conseils sur la façon de résoudre les problèmes courants.
+Il est important de se rappeler que Laravel est un framework très complet et qu'il prend en charge de nombreux scénarios d'utilisation. Il est donc important de comprendre les concepts fondamentaux du framework pour pouvoir utiliser efficacement les différentes fonctionnalités. Il est également important de consulter la documentation officielle et les forums de la communauté pour obtenir de l'aide et des conseils sur la façon de résoudre les problèmes courants. 
 
 
 

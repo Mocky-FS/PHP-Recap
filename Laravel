@@ -1,0 +1,18 @@
+# Laravel
+
+## Sommaire
+
+- [Les routes](#les-routes)
+
+## Les Routes
+
+Les routes dans Laravel sont utilisées pour définir les URL de votre application et définir quelles actions sont exécutées pour chaque URL. Les routes sont définies dans les fichiers routes/web.php et routes/api.php. Il existe plusieurs types de routes que vous pouvez utiliser dans Laravel, notamment :
+
+Route GET : Utilisée pour récupérer des données depuis le serveur.
+
+```php
+<pre>
+Route::get('/', function () {
+    return view('welcome');
+});
+```

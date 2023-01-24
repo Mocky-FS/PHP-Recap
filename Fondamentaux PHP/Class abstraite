@@ -6,9 +6,9 @@
 
 ## Classe Abstraite
 
-```
+```php
 <pre>
-<?php
+
 
 // Classe abstraite Vehicule
 abstract class Vehicule {

@@ -76,4 +76,4 @@ Il est important de noter que l'ordre des routes dans les fichiers de routes est
 
 En résumé, les routes sont un élément essentiel de toute application Laravel, car elles définissent les URL de votre application et définissent quelles actions sont exécutées pour chaque URL. Il est important de comprendre les différents types de routes disponibles dans Laravel et comment les utiliser pour organiser et gérer efficacement les routes de votre application.
 
-## Les Routes
+## Les

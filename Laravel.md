@@ -8,7 +8,7 @@
 - [Les Models](#les-models)
 - [Les Migrations](#les-migrations)
 - [Les Controllers](#les-controllers)
-- [Les requêtes](#les-requetes)
+- [Les Requêtes](#les-requetes)
 - [La Validations](#la-validations)
 - [Les Middlewares](#les-middlewares)
 
